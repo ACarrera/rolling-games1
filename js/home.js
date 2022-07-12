@@ -1,3 +1,5 @@
+import { footerMenu } from "./helpers.js";
+footerMenu();
 // constructor del objeto juego
 class Game{
   constructor(id,name,category,description,image,destacado){
@@ -106,7 +108,5 @@ games.forEach(game =>{
     adminButton.innerHTML=`
     <li class="nav-item"> <a class="nav-link nav-buttons" href="/html/tablaadmin.html">Administracion </a> </li>
     `;
-    document.getElementById('menu').appendChild(adminButton)
+    document.getElementById('menu').appendChild(adminButton);
   }
-import { footerMenu } from "./helpers.js";
-footerMenu();

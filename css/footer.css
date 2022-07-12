@@ -18,8 +18,8 @@
 footer {
   margin-top: 30px;
   width: 100%;
-  font-size: 20px;
-  
+  font-size: 30px;
+  font-family: fredoka;
   
   
 }
@@ -32,5 +32,8 @@ footer {
     width: 70px;
     height: 70px;
     border-radius: 5%;
-
+}
+@font-face {
+  font-family: Fredoka;
+  src: url(../assets/Fonts/FredokaOne-Regular.ttf)
 }

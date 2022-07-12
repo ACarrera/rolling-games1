@@ -13,7 +13,7 @@ detail.innerHTML = `
 <img src=${game.image} class="img-top images" alt=${game.name}>
 <div class="card-body">
   <h2 class="text-center">${game.name}</h2>
-  <p class=" h5 ps-2 text-estrategy">${game.description}</p>
+  <p class=" h5 ps-2 text-align-justify">${game.description}</p>
   </div>
 </div>
 `
